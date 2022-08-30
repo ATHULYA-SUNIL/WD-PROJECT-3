@@ -1,0 +1,323 @@
+/*-------------------------------------1440px-------------------------------------*/
+@media(max-width:1440px){
+    .bottom-one {
+        width: 78%;
+        left: 150px;
+    }
+}
+
+
+/*-------------------------------------1024px-------------------------------------*/
+
+@media(max-width:1024px){
+    /*-------------nav bar--------------*/
+    .row{
+        max-width: 100%;
+        margin: 0 8px;
+    }
+    .btn-nav label{
+        display: none;
+    }
+    .two {
+        margin-left: 35%;
+    }
+    .btn-nav {
+        padding: 20px 8px;
+    }
+    nav {
+
+        width: 90%;
+        margin: 0 5%;
+    }
+    /*-------------section head--------------*/
+
+	.top-two{
+		background-color: white;
+		height: 300px;
+		width: 95%;
+		padding: 50px;
+		left: 2.5%;
+		top: 350px;
+	}
+	.owl-dots {
+	    position: relative;
+	    margin-top: -35px;
+	}
+	.owl-theme .owl-nav {
+	    zoom: 2;
+	}
+	.top-22{
+		background-color: white;
+		height: 300px;
+		width: 95%;
+		padding: 50px;
+		left: 2.5%;
+		top: 340px;
+	}
+    .items .top-22,
+    .items .top-two{
+        box-shadow: 0 10px 10px rgb(0, 0, 0 ,0.4);
+    }
+    /*-------------section boxes--------------*/
+
+	.link-icon {
+        height: 150px;
+        width: 40%;
+    }
+    .link-icon a {
+        margin: 0 -36px;
+    }
+
+    /*-------------section boxes--------------*/
+    .section-boxes {
+        height: 1050px;
+        padding: 50px 20px;
+    }
+    .span-1-of-4 {
+        width: 47.8%;
+    }
+    /*-------------section edges--------------*/
+    .section-edge {
+        height: 800px;
+    }
+    .bottom-one {
+        width: 100%;
+        position: initial;
+    }
+    .bottom-two {
+        width: 100%;
+        position: sticky;
+    }
+    /*-------------section boxes--------------*/
+    .section-bottom {
+        height: 1250px;
+        padding: 50px 20px;
+    }
+    .sbb{
+        margin-bottom: 70px;
+    }
+    .section-bottom .span-1-of-4:nth-of-type(3){
+        margin-left: 0px;
+    }
+
+    .all{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .all .cc{
+        width: 90%;
+    }
+    .lt-two{
+        margin-left: 30px;
+    }
+    footer .last {
+        margin-left: -160px;
+    }
+}
+
+/*-------------------------------------768px-------------------------------------*/
+
+@media(max-width:768px){
+    .row{
+        max-width: 100%;
+    
+    }
+    /*-------------nav bar--------------*/
+    .one ul{
+        display: none;
+    }
+    .nav img {
+        width: 36%;
+        margin: 10px 300px;
+    }
+    .btn-nav select{
+        display: none;
+    }
+    .btn-nav label{
+        display: none;
+    }
+    .two .btn-nav:nth-of-type(2){
+        margin-left: -450px;
+    }
+    .btn-nav:nth-of-type(3){
+        margin-left: 520px;
+    }
+    /*-------------section head--------------*/
+
+	.top-two{
+		background-color: white;
+		height: 300px;
+		width: 95%;
+		padding: 50px;
+		left: 2.5%;
+		top: 350px;
+	}
+	.owl-dots {
+	    position: relative;
+	    margin-top: -35px;
+	}
+	.owl-theme .owl-nav {
+	    zoom: 2;
+	}
+	.top-22{
+		background-color: white;
+		height: 300px;
+		width: 95%;
+		padding: 50px;
+		left: 2.5%;
+		top: 340px;
+	}
+    /*-------------section boxes--------------*/
+
+    .top-three {
+        height: 380px;
+        width: 90%;
+    }
+	.link-icon {
+        height: 150px;
+        width: 40%;
+    }
+    .link-icon a {
+        margin: 0 -36px;
+    }
+    .breaker{
+        position: absolute;
+        margin-top: 180px;
+        margin-left: 140px;
+    }
+    /*-------------section boxes--------------*/
+    .section-boxes {
+        height: 950px;
+        padding: 50px 20px;
+    }
+    .span-1-of-4 {
+        width: 47.8%;
+    }
+    /*-------------section edges--------------*/
+    .section-edge {
+        height: 800px;
+    }
+    .bottom-one {
+        width: 100%;
+        position: initial;
+    }
+    .bottom-two {
+        width: 100%;
+        position: sticky;
+    }
+    /*-------------section boxes--------------*/
+    .section-bottom {
+        height: 1120px;
+        padding: 50px 20px;
+    }
+    .sbb{
+        margin-bottom: 70px;
+    }
+    .section-bottom .span-1-of-4:nth-of-type(3){
+        margin-left: 0px;
+    }
+
+    .all{
+        display: flex;
+        flex-direction: column;
+    }
+    .all .cc{
+        width: 90%;
+    }
+    footer .last label {
+        font-size: 10px;
+        padding-right: 4px;
+    }
+}
+
+
+
+/*-------------------------------------375px-------------------------------------*/
+
+@media (max-width:375px){
+    .row{
+        width: 100%;
+    }
+   
+    /*-------------nav bar--------------*/
+
+    .nav{
+        margin: 16px -12px;
+        width: 60%;
+    }
+    .nav img {
+        width: 47%;
+        margin: 10px 120px;
+    }
+    .two{
+        display: none;
+    }
+    .one ul{
+        display: none;
+    }
+    .btn-nav select{
+        display: none;
+    }
+    .btn-nav label{
+        display: none;
+    }
+    .items .top-22, 
+    .owl-item .items .top-two {
+        top: 280px;
+    }
+    .section-head .top-three {
+        height: 640px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 40px;
+    }
+    .link-icon {
+        width: 100%;
+    }
+    .breaker{
+        position: absolute;
+        margin-top: 450px;
+        margin-left: 0px;
+    }
+    .span-1-of-4{
+        width: 100%;
+    }
+
+
+    .section-boxes {
+        height: 1651px;
+        padding: 50px 10px;
+    }
+
+    .section-edge .row.edge{
+        margin: 0px -8px;
+    }
+
+    .section-bottom {
+        height: 1920px;
+    }
+
+
+    footer {
+        line-height: 40px;
+    }
+    footer .lt-two {
+        flex-direction: column;
+    }
+    footer .last {
+        margin-left: 0px;
+    }
+    .lt-two {
+        margin-left: 0px;
+        padding-left: 28px;
+    }
+}
+
+
+/*@media(max-width:375px){
+    body{
+        color: red;
+    }
+}

@@ -1,0 +1,365 @@
+/*......................................................................1024px............................................................*/
+@media(min-width: 1024px) and (max-width: 1440px){
+	header{
+		font-size: 14px;
+	}
+	.nav img{
+		height: 25px;
+	    width: 25%;
+	    margin: 12px 20px;
+	}
+	.one{
+		margin: 16px 25px;
+	}
+	.two {
+	    margin-left: 30%;
+	}
+	.btn-nav{
+		padding: 20px 10px;
+	}
+	.two .btn-nav label{
+		display: none;
+	}
+
+	/*-------------section head--------------*/
+
+	.top-two{
+		background-color: white;
+		height: 300px;
+		width: 95%;
+		padding: 50px;
+		left: 2.5%;
+		top: 350px;
+	}
+	.owl-dots {
+	    position: relative;
+	    margin-top: -35px;
+	}
+	.owl-theme .owl-nav {
+	    zoom: 2;
+	}
+	.top-22{
+		background-color: white;
+		height: 300px;
+		width: 95%;
+		padding: 50px;
+		left: 2.5%;
+		top: 350px;
+	}
+
+	/*-------------section boxes--------------*/
+
+	.section-boxes{
+		height: 1000px;
+	    padding: 50px 0px 50px 14px;
+	}
+	.span-1-of-4 {
+	    width: 47.6%;
+	}
+
+	/*-------------section edge-------------*/
+
+	.section-edge{
+		height: 800px;
+	}
+	.bottom-one{
+		width: 100%;
+		left: 0;
+	}
+	.bottom-two {
+	    width: 95%;
+	    top: 550px;
+	    left: 2.5%;
+	    box-shadow: 0.1px;
+	}
+
+	/*-------------section bottom-------------*/
+
+	.section-bottom{
+		height: 1200px;
+		padding: 50px 0px 50px 35px;
+	}
+
+	/*-------------foooter-------------*/
+
+	.all .cc {
+	    width: 100%;
+	    margin-left: 90px;
+	    padding-top: 30px;
+	}
+	.all {
+	    display: flex;
+	    flex-direction: column;
+	}
+
+	footer .last {
+	    width: 80%;
+	    margin-left: -145px;
+	}
+	.lt-two{
+		padding: 0 50px;
+	}
+}
+
+
+
+/*..................................................................768px.........................................................*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+	li{
+		display: none;
+	}
+	.one img{
+		width: 80%;
+		margin-left: 300px;
+	}
+	.two label,
+	.two select{
+		display: none;
+	}
+	nav{
+		position: relative;
+	}
+	.nav{
+		position: absolute;
+	}
+	.fa-magnifying-glass{
+		margin-left: -100px;
+	}
+	.fa-cart-shopping{
+		margin-left: 400px;
+	}
+	
+
+	/*-------------section head--------------*/
+
+
+	.top-two,
+	.top-22{
+		background-color: white;
+		height: 300px;
+		width: 100%;
+		padding: 50px;
+		left: 0%;
+		top: 300px;
+	}
+	.owl-dots {
+	    position: relative;
+	    margin-top: -35px;
+	}
+	.owl-theme .owl-nav {
+	    zoom: 2;
+	}
+
+	/*-------------section head-last--------------*/
+
+	.link-icon{
+		height: 200px;
+    	width: -webkit-fill-available;
+    	margin-left: -60px;
+    	padding: initial;
+	}
+	.breaker{
+		padding-top: 200px;
+		margin-left: -850px;
+	}
+	.top-three{
+		height: 400px;
+		padding-left: 0;
+	}
+
+	/*-------------section boxes--------------*/
+
+	.section-boxes{
+		height: 1000px;
+	    padding: 50px 0px 50px 14px;
+	}
+	.span-1-of-4 {
+	    width: 47.6%;
+	}
+
+	/*-------------section edge-------------*/
+
+	.section-edge{
+		height: 800px;
+	}
+	.bottom-one{
+		width: 100%;
+		left: 0;
+	}
+	.bottom-two {
+	    width: 100%;
+	    top: 600px;
+	    left: 0%;
+	}
+
+	/*-------------section bottom-------------*/
+
+	.section-bottom{
+		height: 1200px;
+		padding: 50px 0px 50px 35px;
+	}
+	.sbb{
+		margin-bottom: 75px;
+	}
+
+	/*-------------foooter-------------*/
+
+	.all .cc {
+	    width: 100%;
+	    margin-left: 50px;
+	    padding-top: 30px;
+	}
+	.all {
+	    display: flex;
+	    flex-direction: column;
+	}
+
+	footer .last {
+	    width: 90%;
+	    margin-left: -145px;
+	    padding-right: 8px;
+	}
+	.lt-two{
+		padding: 0 50px;
+	}
+	footer p,
+	footer .last label{
+		font-size: 10px;
+		padding-right: 6px;
+	}
+}
+
+
+/*..................................................................375px.........................................................*/
+
+@media (min-width: 375px) and (max-width: 768px){
+	li{
+		display: none;
+	}
+	.one img{
+		width: 70%;
+		height: 25px;
+		margin-left: 125px;
+	}
+	.two label,
+	.two select{
+		display: none;
+	}
+	nav{
+		position: relative;
+	}
+	.nav{
+		position: absolute;
+	}
+	.fa-magnifying-glass{
+		margin-left: -60px;
+	}
+	.fa-cart-shopping{
+		margin-left: 120px;
+	}
+	/*-------------section head--------------*/
+
+	.top-one,
+	.top-11{
+		background-position: right;
+	}
+	.top-two,
+	.top-22{
+		background-color: white;
+		height: 300px;
+		width: 100%;
+		padding: 50px;
+		left: 0%;
+		top: 300px;
+	}
+	.owl-dots {
+	    position: relative;
+	    margin-top: -35px;
+	}
+	.owl-theme .owl-nav {
+	    zoom: 2;
+	}
+	/*-------------section head-last--------------*/
+
+	.link-icon{
+		height: 200px;
+    	width: -webkit-fill-available;
+	}
+	.top-three{
+		height: 500px;
+		display: flex;
+		flex-direction: column;
+		padding-left: 0px;
+		padding: 0;
+	}
+	.ball{
+		padding-left: 0px;
+		margin-left: -160px;
+	}
+	.breaker{
+		margin-top: -167px;
+    	margin-right: -150px;
+	}
+
+	/*-------------section boxes--------------*/
+
+	.section-boxes {
+	    height: 1500px;
+	    padding: 0 50px;
+	}
+
+	/*-------------section edge-------------*/
+
+	.section-edge{
+		height: 800px;
+	}
+	.bottom-one{
+		width: 100%;
+		left: 0;
+	}
+	.bottom-two {
+	    width: 100%;
+	    top: 600px;
+	    left: 0%;
+	}
+
+	/*-------------section bottom-------------*/
+	.section-bottom {
+	    height: 1920px;
+	    margin-left: 5%;
+	}
+
+	/*-------------foooter-------------*/
+	.all {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.all .cc {
+	    width: 100%;
+	}
+
+	footer .lt-two {
+	    display: flex;
+	    flex-direction: column;
+	    line-height: 40px;
+	    padding-top: 30px;
+	}
+	footer .en .fa-earth-americas {
+	    margin-left: 50px;
+	}
+	footer .en .fa-earth-americas {
+	    margin-top: 12px;
+	}
+	footer .last {
+	    margin-left: 50px;
+	}
+	footer p{
+		font-size: 10px;
+	}
+	footer .last label {
+	    font-size: 10px;
+	    padding-right: 10px;
+	    word-spacing: 0;
+	}
+}

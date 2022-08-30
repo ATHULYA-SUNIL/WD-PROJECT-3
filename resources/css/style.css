@@ -1,0 +1,350 @@
+/*----------------------------------*/
+/*-------Basic elements-------------*/
+/*----------------------------------*/
+
+*{	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	word-spacing: 1px;
+	font-family: sans-serif;
+}
+.row{
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+/*----------------------------------*/
+/*------------Reusable code-------------*/
+/*----------------------------------*/
+
+.btn-blue{
+	background-color: #1974d2;
+	color: white;
+	height: 40px;
+	width: 160px;
+	text-align: center;
+	line-height: 40px;
+    border-radius: 3px;
+}
+
+.btn-more{
+	color: #1974d2;
+	height: 40px;
+	width: 180px;
+	text-align: center;
+	line-height: 40px;
+}
+.btn-yellow{
+	background-color: #ee9a4d;
+	height: 30px;
+	width: 60px;
+	text-align: center;
+	line-height: 30px;
+}
+
+/*----------------------------------*/
+/*-------------Header-------------*/
+/*----------------------------------*/
+
+
+
+/*-------------Header left-------------*/
+
+nav{
+	height: 80px;
+	width: 100%;
+}
+nav .row{
+	display: flex;
+}
+.nav img{
+	height: 30px;
+	width: 26%;
+	margin: 10px 5px;
+}
+.nav {
+    display: flex;
+    margin: 16px auto;
+    width: 40%;
+ }
+.two{
+	margin-left: 20%;
+}
+
+.nav ul{
+	display: flex;
+}
+
+.nav ul li{
+	list-style: none;
+	padding: 20px 8px;
+    white-space: nowrap;
+}
+.nav a{
+	text-decoration: none;
+	color: black;
+}
+
+/*-------------Header right-------------*/
+
+.btn-nav{
+	padding: 20px 15px;
+	display: flex;
+}
+.btn-nav label{
+	white-space: nowrap;
+	margin-right: 10px;
+}
+.btn-nav select{
+	background: transparent;
+	border: none;
+}
+.fa-magnifying-glass
+{
+	transform: rotate(450deg);
+}
+
+
+/*----------------------------------*/
+/*-------------Head section-------------*/
+/*----------------------------------*/
+
+.items{
+	height: 600px;
+	width: 100%;
+}
+
+/*-------------Head section part1-------------*/
+
+
+.top-one{
+	background-image: url("img/Highlight-Hero-M365-Screenplates-Update-Excel_VP5-1920x600.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	width: 100%;
+	position:absolute;
+	background-position: right;
+}
+.micro{
+	display: flex;
+	padding: 25px 0;
+}
+.top-two{
+	height: 400px;
+	width: 30%;
+	position: relative;
+	padding: 100px 50px;
+	top: 100px;
+	left: 100px;
+}
+.top-two h1{
+	padding: 25px 0;
+}
+
+/*-------------Head section part2-------------*/
+
+.top-11{
+	background-image: url("img/Highlight-Surface-Laptop-Go-2-01-M01_VP5-1920x600.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	width: 100%;
+	position:absolute;
+}
+.top-22{
+	height: 400px;
+	width: 30%;
+	position: relative;
+	padding: 100px 50px;
+	top: 100px;
+	left: 100px;
+}
+.top-22 h1{
+	padding: 25px 0;
+}
+.top-22 p{
+	margin-bottom: 25px;
+}
+
+/*-------------Head owl carousel-------------*/
+
+
+.owl-dots{
+	position: inherit;
+    margin-top: -20px;
+}
+.owl-prev span{
+	padding-inline: 80px;
+    margin-left: -80px;
+    position: inherit;
+}
+
+/*-------------Head section part3-------------*/
+
+.top-three{
+	height: 200px;
+	display: flex;
+	padding: 50px;
+    padding-left: 100px;
+}
+.link-icon{
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.link-icon img{
+	height: 50px;
+	width: 50px;
+	margin-bottom: 10px;
+}
+.link-icon a{
+	color: #1974d2;;
+}
+
+
+/*----------------------------------*/
+/*-------------section boxes-------------*/
+/*----------------------------------*/
+
+.section-boxes{
+	height: 600px;
+	padding: 50px 0px;
+}
+.section-boxes h1{
+	padding: 25px 0;
+}
+.section-boxes p{
+	margin-bottom: 25px;
+}
+.section-boxes .btn-more{
+	text-align: justify;
+	font-size: 14px;
+}
+.section-boxes img{
+	width: 95%;
+}
+
+/*----------------------------------*/
+/*-------------section edge-------------*/
+/*----------------------------------*/
+
+.section-edge{
+	height: 600px;
+}
+.bottom-one{
+	background-image: url("img/gldn-MSFT-hero-Edge_VP5-1596x600.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	width: 80%;
+	position:absolute;
+	left: 152px;
+}
+.bottom-two{
+	background-color: white;
+	height: 250px;
+	width: 35%;
+	position: relative;
+	padding: 25px 30px;
+	top: 200px;
+	left: 40px;
+}
+.bottom-two h1{
+	padding: 25px 0;
+}
+.bottom-two p{
+	margin-bottom: 25px;
+}
+
+/*----------------------------------*/
+/*-------section bottom boxes--------*/
+/*----------------------------------*/
+
+/*.section-bottom-boxes{
+	height: 600px;
+	padding: 50px 0px;
+}
+
+.section-bottom-boxes h2{
+    display: inline;
+}*/
+.section-boxes .btn-yellow{
+	margin-top: 10px;
+	margin-bottom: -10px;
+}
+
+.section-bottom{
+	height: 650px;
+	padding: 50px 0;
+}
+.section-bottom-boxes h1{
+	padding: 25px 0;
+}
+.section-bottom-boxes p{
+	margin-bottom: 25px;
+}
+.section-bottom-boxes .btn-more{
+	text-align: justify;
+	font-size: 14px;
+}
+.section-bottom-boxes img{
+	width: 95%;
+	margin-bottom: 10px;
+}
+.section-bottom-boxes .none{
+	background-color: white;
+}
+
+
+.icon{
+	height: 100px;
+	display: flex;
+	padding: 50px 0;
+}
+.fa-facebook-f,
+.fa-twitter,
+.fa-youtube{
+	margin-left: 20px;
+}
+
+/*----------------------------------*/
+/*-------------footer--------------*/
+/*----------------------------------*/
+
+footer{
+	background-color: gainsboro;
+	color: #404040;
+	line-height: 50px;
+}
+footer p{
+	font-size: 12px;
+}
+.all{
+	display: flex;
+}
+.all .cc{
+	width: 50%;
+}
+
+
+footer .lt-two{
+	display: flex;
+}
+footer .en{
+	display: flex;
+}
+footer .en .fa-earth-americas{
+	margin-top: 15px;
+    margin-right: 10px;
+}
+footer .last label{
+	font-size: 12px;
+	padding-right: 14px;
+}
+footer .last{
+	width: 80%;
+	margin-left: 60px;
+}
